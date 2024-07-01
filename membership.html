@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DIAMOND</title>
+    <link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/mob.css">
+
+</head>
+<body">
+    <div class="container-fluid" >
+        <div class="navbar">
+                <h1>DIAMOND<span>.</span></h1>
+        <div class="nav-links" id="sidebar">
+                <ul>
+                    <div class="sidebar-logo">
+                        <span class="logo-name">DIAMOND</span>
+                        <i class='bx bx-x' ></i>
+                      </div>
+                      
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#AboutSection">About</a></li>
+                    <li><a href="index.html#ServicesSection">Services</a></li>
+                    <li><a href="index.html#PlansSection">Plans</a></li>
+                    <li><a href="Whyjoin.html" >Why Join</a></li>
+                </ul>
+        </div>
+                
+                <button class="menu">Menu</button>
+            </div>  
+           
+        <div class="content">
+                <div class="content-left">
+                     <h3>Welcome To </h3>
+                    <h1>DIAMOND<span>.</span></h1>
+                    <!-- <h4>Gym</h4> -->
+                    <!-- <form method="get" action="membership.html">
+                        <button class="btn">MEMBERSHIPS</button>
+                        </form>           -->
+                        </div>
+                        <form onsubmit="return validate();"  action="form.php" method="post" id="form">
+        
+                            <div class="container">
+                                <div id="heading">
+                                    <h2>Diamond Gym Application Form</h2> 
+                                    <p> ¨Tough times don’t last. Tough people do.¨
+                                        <br><br>
+                                        &nbsp; Kindly read all the TnCs before filling.</p>
+                                        
+                                        <p class="red" id="req">
+                                            *required
+                                        </p>
+                                        
+                                        
+                                    </div>
+                                    <div class="block">
+                                        <div class="mandatory">
+                                            
+                                            <p>Full Name </p>
+                                            
+                                            <p style = "color : red" class="star">*</p>
+                                        </div> 
+                                        
+                                        <input type="text" name="name1" id="name" class="input_box_decor" placeholder="Your Answer" >
+                                    </div>
+                                    <div class="block" id="heading3">
+                                        <div class="mandatory">
+                                            <p>
+                                                Phone Number
+                                                <p style = "color : red" class="star">*</p>
+                                            </p>
+                                        </div>
+                                        
+                                        <input type="text" id="Phno" name="ph_no" class="input_box_decor" placeholder="Your Answer">
+                                    </div>
+                            <div class="block" id="heading4">
+                                <div class="mandatory">
+                                    <p>Gender</p>
+                                    <p style = "color : red" class="star">*</p>
+                                </div>
+                                <div id="st_line">   
+                                    Male<input type="radio" class="mf" name="gender" value="Male"> Female <input type="radio" class="mf" name="gender" value="Female">
+                                </div>
+                            </div>
+                            
+                            <div class="block" id="heading5">
+                                <div class="mandatory">
+                                    <p>
+                                        Address
+                                    </p>
+                                    <p style = "color : red" class="star">*</p>
+                                </div>
+                                <input type="text" id="add" name="address" class="input_box_decor" placeholder="Your Answer">
+                            </div>
+                            <div class="block" id="heading6">
+                                <div class="mandatory">
+                                    <p>
+                                        Select Membership Plan
+                                    </p>
+                                    <p style = "color : red" class="star">*</p>
+                                </div>
+                                <select name="Plan" class="input_box_decor" id="plan">
+                                    <option value="899">Basic</option>
+                                    <option value="1799">Standard</option>
+                                    <option value="3100">Premium</option>
+                                    
+                                  </select>
+                            </div>
+                            <div class="block" id="heading6">
+                                <div class="mandatory" >
+                                        <input type="checkbox" required name="terms">  I accept the <u>Terms and Conditions</u>
+                                </div>
+                                
+                                    &nbsp;<li>Sport Shoes Are Mandatory</li>
+                                    &nbsp;<li>GYM is Not Liable To Pay For The Lose Of Your Personal Belongings.</li>
+                                    &nbsp;<li>Try Not To Take other's Supplement,Bring Your Own.</li>
+                                    
+                               
+                            </div>
+                            <input type="submit" class="btn" value="submit">
+                         <input type="Reset" class="btn" value="Reset">
+                            
+                            
+                            <div class="footer">
+                                <p class="Foot">Never submit passwords through Google Forms.</p>
+                                <p class="Foot" id="foot1">This content is neither created nor endrosed by Google. <u>Report Abuse</u> - <u>
+                                    Terms Of Services</u> - <u>Privacy Policy</u>
+                                </p>
+                              
+                            
+                            </div>
+                        </div>
+                    </form>
+                </div>
+       
+    </div>
+        
+
+
+<div class="footer-fluid">
+    <div class="footer">
+    <p>Copyright 2021 - All Right Reserved - Made By <a href="#">Students</a></p>
+    <div class="icon">
+    <ion-icon name="logo-facebook"></ion-icon>
+    <ion-icon name="logo-whatsapp"></ion-icon>
+    <ion-icon name="logo-instagram"></ion-icon>
+    <ion-icon name="logo-google"></ion-icon>
+    <ion-icon name="logo-youtube"></ion-icon>
+    </div>
+    </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let plan = document.getElementById("plan")
+        let p = plan.options[plan.selectedIndex].value;
+      function validate() {
+        const Name = document.getElementById("name");
+        const phoneno = document.getElementById("Phno");
+        let adds = document.getElementById("add"); 
+        let check =/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+        if(Name.value.trim() == "" || phoneno.value.trim()== "" || adds.value.trim()== "")
+        {
+            alert("Cannot leave the required section blank");
+            return false;
+        }
+       
+            if(Name.value.length > 32)
+            {
+                alert("Lenght Of Name Should not be greater than 32");
+                return false;
+            }
+           
+         if(phoneno.value.match(check))
+        {
+          return true;   
+        }
+        else {
+            alert("Enter the valid phone numeber");
+            return false;
+        }
+
+     
+
+    return true; 
+  }
+          
+
+ 
+  
+    
+      
+
+
+    </script>
+    </body>
+    </html>

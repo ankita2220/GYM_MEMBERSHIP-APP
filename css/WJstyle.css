@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+*
+{
+margin:0;
+padding:0;
+font-family: 'Comfortaa', cursive;
+} 
+
+.services{
+    background: #111;
+  
+  }
+  .services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    color: #fff;
+    background: #111;
+    box-shadow: 0 5px 26px 0 rgb(68 88 144 / 14%);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 3px solid #fff;
+  }
+  .services .icon-box-pink:hover {
+    border-color: #ff689b;
+  }
+  .services .icon-box-cyan:hover {
+    border-color: cyan;
+  }
+  .services .icon-box-green:hover {
+    border-color: green;
+  }
+  .services .icon-box-blue:hover {
+    border-color: blue;
+  }
+  
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .services .icon-box-pink .icon {
+    background: #fceef3;
+  }
+  
+  .services .icon-box-cyan .icon  {
+    background: #e6fdfc;
+  }
+  .services .icon-box-green .icon {
+    background: #eafde7;
+  }
+  .services .icon-box-blue .icon  {
+    background: #e1eeff;
+  }
+  
+  .services .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 17px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 55px;
+  }
+  .services .icon-box-pink .icon i {
+    color: #ff689b;
+  }
+  .services .icon-box-cyan .icon i {
+    color: cyan;
+  }
+  .services .icon-box-green .icon i {
+    color: green;
+  }
+  .services .icon-box-blue .icon i {
+    color: blue;
+  }
+  
+  
+  .services .icon i {
+    font-size: 36px;
+    line-height: 1;
+  }
+  .services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  .services .title a {
+    color: #fff;
+  }
+  .row{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    justify-content: space-evenly;
+  }
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  section{
+    padding: 60px 0px;
+  }
+  .d-flex{
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 15px;
+    display: flex!important;
+  }

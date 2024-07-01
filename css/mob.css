@@ -1,0 +1,154 @@
+@media screen and (max-width: 400px){
+
+    .content-left {
+        padding: 4px  !important;
+    }
+ .content h3
+    {
+             font-size: 10px !important;
+    }
+.content h1
+    {
+    font-size: 40px !important;
+    }
+    .footer ion-icon {
+    font-size: 20px;
+    }
+    .footer .contact{
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer .icon{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 700px){
+    .cont-title{
+        font-size: 20px;
+    }
+    .about .cont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cont .cont-desc p{
+        font-size: 12px;
+    }
+    .cont img {
+        padding: 20px;
+        width: 200px;
+    }
+    .Services .box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .price {
+        height: 900px;
+    }
+    .pricing .price-box
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px !important;
+}
+.pricing .price-box .p-box
+{
+width: 220px !important;
+margin-top: 10px !important;
+
+}
+.pricing .price-box .p-box h3 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.Services .box div {
+    width: 200px !important;
+    margin-top: 10px;
+}
+
+
+
+}
+
+@media screen and (max-width: 900px){
+.navbar h1{
+    font-size: 1rem;
+}
+    .content-left {
+        padding: 54px  ;
+    }
+ .content h3
+{
+font-size: 15px;
+}
+.content h1
+{
+font-size: 50px;
+}
+.navbar .sidebar-logo{
+    display: block;
+}
+.navbar .menu{
+    display: block;
+}
+
+    .navbar .nav-links{
+        position: fixed;
+        overflow: auto;
+        top: 0;
+        left: -100%;
+        display: block;
+        max-width: 270px;
+        width: 100%;
+        background:  #0c0b0b;
+        line-height: 40px;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.5s ease;
+        z-index: 1000;
+      }
+      .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+      .Services .box div {
+        width: 200px;
+        background: #fff;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px 12px;
+    }
+
+    .Services .box div p{
+    line-height: 18px;
+    padding: 20px;
+    font-size: 12px;
+    }
+
+    .Services .box div h2 {
+        font-size: 20px;
+    }
+
+    .pricing .price-box {
+        padding: 15px;
+    }
+    .pricing .price-box .p-box
+    {
+    width: 200px;
+    padding:10px;
+    margin-top: 100px;
+
+    }
+    .pricing .price-box .p-box h3 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+
+}
